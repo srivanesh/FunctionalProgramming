@@ -18,6 +18,6 @@ public class Chapter2Video8 {
 
         BiFunction<Float, Float, Float> divideSafe = secondArgIsntZeroCheck.apply(divide);
 
-        System.out.println(divideSafe.apply(10f, 2f));
+        System.out.println(divideSafe.apply(25f, 2f));
     }
 }

@@ -4,7 +4,7 @@ public class Chapter2Video7 {
 
     public static void main(String[] args) {
         NoArgFunction<NoArgFunction<String>> createGreeter = () -> {
-            String name = "Shaun";
+            String name = "Srivanesh";
             return () -> "Hello, " + name;
         };
 
