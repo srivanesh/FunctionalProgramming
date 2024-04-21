@@ -11,7 +11,7 @@ import java.io.*;
         import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class Result1 {
 
     /*
      * Complete the 'reverseArray' function below.
@@ -42,7 +42,7 @@ public class Arrays1 {
 //                .collect(toList());
 
         List<Integer> arr = Arrays.asList(89, 12, 76, 3, 100);
-        List<Integer> res = Result.reverseArray(arr);
+        List<Integer> res = Result1.reverseArray(arr);
 
         System.out.println("Reversed array :"+res);
 
