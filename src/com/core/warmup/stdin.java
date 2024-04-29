@@ -1,4 +1,4 @@
-package com.core;
+package com.core.warmup;
 
 import java.util.Scanner;
 
